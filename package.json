@@ -1,0 +1,24 @@
+{
+  "name": "serverless-functions.netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node netlify/functions/hello",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulakovAngel/serverless-functions.netlify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kulakovAngel/serverless-functions.netlify/issues"
+  },
+  "homepage": "https://github.com/kulakovAngel/serverless-functions.netlify#readme"
+}

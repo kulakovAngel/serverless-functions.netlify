@@ -1,0 +1,12 @@
+<button id="button">
+    Press Me!
+</button>
+
+<script>
+    button.addEventListener('click', () => {
+        fetch('/.netlify/functions/hello')
+            .then(response => {
+                console.log(response)
+            });
+    });
+</script>
