@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 // const API_ENDPOINT = "https://www.nbrb.by/api/exrates/currencies/145";
 const API_ENDPOINT = 'https://jsonplaceholder.typicode.com/users';
 
-const handler = async (event, context) => {
+exports = async (event, context) => {
 
     const {userId} = querystring.parse(event.body);
 
@@ -16,6 +16,4 @@ const handler = async (event, context) => {
         statusCode: 200,
         body: a,
     });
-};
-
-exports = handler;
+};;
